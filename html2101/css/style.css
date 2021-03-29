@@ -1,0 +1,20 @@
+h1 {color: rgb(255, 0, 0); font-size: 3em;}
+
+h2 {color: rgb(72, 255, 0);}
+
+body {background-color: grey;}
+
+#absatz {color: rgb(255, 251, 0);}
+
+#absatz {color: rgb(0, 26, 255); background-color: orange; width: 4cm; text-decoration: underline;}
+
+#ipsum {font-size:  1.5em;}
+
+img {width: 40vw;}
+
+#bild {height: 50vh; width: auto;}
+#bild2 {height: 50vh; width: auto;}
+
+.gruen {color: green;}
+
+.big {font-size: 2em;}

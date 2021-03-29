@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang=de>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprungtabelle</title></head>
+     </head>
+<body>
+        <h1>Überschrift</h1>
+        <p>Text</p>
+    <ul>
+            <li>Grundlagen der IT</li>
+            <hr/>
+    </ul>
+            <h2>2020-2020 
+            <hr/>
+        <ol>
+            <li></li>
+            <hr/>
+            
+        </ol>
+</body>
+</html>
