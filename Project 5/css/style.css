@@ -1,33 +1,75 @@
 .body
-{float:left;
-    height: 98vh;
-    width: 98vw;
-    float: left;
+{
+    float:left;
+    height: 99vh;
+    width: 99vw;
 }
 
 
-.head {float:left;
+.head 
+{
+    float:left;
     height: 15%;
-    width: 100;
-    background-color: red;}
-
-.center 
-{float:left;
-height: 75%;
-width: 100%;
-background-color:rgb(rgb(30, 54, 192))
-}
-
-.footer
-{float:left;
-    height: 10%;
     width: 100%;
-    background-color:rgb(rgb(30, 54, 192))
+    background-color: brown;
 }
 
 .menu
-{float:left;
-    height: 10%;
+{
+    float:left;
+    height: 99%;
     width: 20%;
     background-color:gray;
+    outline:solid;
+}
+
+.center 
+{
+    float:left;
+    height: 75%;
+    width: 100%;
+    background-color:rgb(30, 54, 192);
+}
+
+.inhalt
+{
+    float:left;
+    height: 100%;
+    width: 80%;
+    background-color:darkmagenta;
+    outline:solid;
+}
+
+.side
+{
+    float:left;
+    height: 100%;
+    width: 20%;
+    background-color:gray;
+}
+
+.ma
+{
+    float:left;
+    height: 50%;
+    width: 100%;
+    background-color:darkslateblue;
+    outline:solid;
+}
+
+.footer
+{
+    float:left;
+    height: 10%;
+    width: 100%;
+    background-color:lightgreen;
+    outline:solid;
+}
+
+p
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }

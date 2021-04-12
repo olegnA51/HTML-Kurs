@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    float: left;
+}
+
+.col-1 {
+    width: 16.6666666666666667%;
+height: auto;
+}
+
+.col-2 {
+    width: 16.6666666666666667%;
+height: auto;
+}
+
+.col-1 {
+    width: 16.3333333333333333%;
+height: auto;
+}
+
+.col-3 {
+    width: 50%;
+height: auto;
+}
+
+.col-4 {
+    width: 66.6666666666666666%;
+height: auto;
+}
+
+.col-5 {
+    width: 83.33333333333333333%;
+height: auto;
+}
+
+.col-6 {
+    width: 100%;
+height: auto;
+}
+
+.row {
+width: 95vw;
+height: auto;
+}
