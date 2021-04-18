@@ -2,8 +2,21 @@
     box-sizing: border-box;
     float: left
 }
-
-.row {
-    width: 95vw
-    height: auto;
+html{
+    width: 100%;
+}
+body{
+    width: 100%;
+}
+.container{
+    width: 100%;
+    max-width: unset;
+    padding: 0;
+}
+.head{
+    width: 100%;
+    margin: 0;
+}
+.navbar{
+    background-color: rgb(215, 222, 255)!important;
 }
