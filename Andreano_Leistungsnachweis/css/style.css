@@ -28,7 +28,10 @@ body{
 {
     display: flex; align-items: center; justify-content: center;
     text-align: center;
-    border: solid
+    border: solid;
+    background-color: rgb(215, 222, 255);
+    bottom: 0px;
+    width: 100;
 }
 .content{
     padding: 20px;
@@ -45,4 +48,9 @@ padding: 20px 0;
 }
 .startseite{
     padding: 10px;
+}
+.beschreibung{
+    padding: 10px;
+    text-align: left;
+    margin: auto;
 }
