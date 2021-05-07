@@ -6,7 +6,7 @@ html{
 }
 body{
     width: 100%;
-    background: cornsilk;
+    background: whitesmoke;
 }
 .container{
     width: 100%;
@@ -18,7 +18,20 @@ body{
     margin: 0;
 }
 .navbar{
-    background-color: rgb(215, 222, 255)!important;
+    background-color:  #282d32!important;
+}
+.nav-link{
+    color: lightgray!important;
+}
+.nav-link:hover{
+    color: white!important;
+}
+
+.navbar-light .navbar-brand {
+    color: lightgray;
+}
+.navbar-light .navbar-brand:hover{
+    color: white!important;
 }
 .mylightbox{
     text-align: center;
@@ -135,7 +148,8 @@ padding: 20px 0;
     opacity:0.75;
   }
   
-  .footer-dark .item.social > a:hover {
+  .footer-dark .item.social > a:hover 
+  {
     opacity:0.9;
   }
   
@@ -146,4 +160,51 @@ padding: 20px 0;
     font-size:13px;
     margin-bottom:0;
   }
+
+/* external css: flickity.css */
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
   
+  body { font-family: sans-serif; }
+  
+  .gallery {
+    background: #EEE;
+  }
+  
+  .gallery-cell {
+    width: 66%;
+    height: 300px;
+    margin-right: 10px;
+    background: #8C8;
+    counter-increment: gallery-cell;
+  }
+  
+  /* cell number */
+  .gallery-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+
+  .pic1
+  {
+    background-image: url("nagold1.jpg");
+  }
+
+  .pic2
+  {
+    background-image: url("nagold2.jpg");
+  }
+
+  .pic3
+  {
+    background-image: url("nagold3.jpg");
+  }
+
+  .flickity-viewport
+  {height: 300px;}
